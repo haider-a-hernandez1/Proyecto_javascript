@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Notas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Formulario de Notas</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre"><br><br>
+
+            <label for="nota1">Nota 1:</label>
+            <input type="number" id="nota1" min="1" max="10" placeholder="1 - 10"><br><br>
+
+            <label for="nota2">Nota 2:</label>
+            <input type="number" id="nota2" min="1" max="10" placeholder="1 - 10"><br><br>
+
+            <label for="nota3">Nota 3:</label>
+            <input type="number" id="nota3" min="1" max="10" placeholder="1 - 10"><br><br>
+
+            <button type="button" id="calcularBtn">Calcular Promedio</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
